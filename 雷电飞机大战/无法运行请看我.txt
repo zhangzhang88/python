@@ -1,0 +1,31 @@
+不要删除resources、fonts、sounds和图片等文件夹，压缩包要全部解压到同一个文件夹中
+
+1. 确保已安装python环境
+如未安装 请移步https://www.python.org/downloads/
+若下载慢可使用店主蓝奏网盘高速链接（win版、mac版都有）：
+https://wwi.lanzouo.com/b016e9xva 
+密码:7mxc
+安装时请勾选添加解释器到系统路径
+
+（备用链接）
+https://wwa.lanzoux.com/b016e9xva 
+密码:7mxc
+
+
+2.确保已安装pygame包
+若未安装
+win版可在命令提示框（cmd）中输入pip install pygame（确保已添加python解释器到系统环境变量）
+若pip未识别 请添加python解释器到系统环境变量，若不会，请卸载全部的python解释器，之后重新安装，安装时不要直接下一步，必须把所有能勾上的全勾上，之后再下一步。
+安好之后，重新打开cmd输入pip install pygame
+
+mac版可在Mac 终端使用以下命令：python3 -m pip install -U pygame --user
+如果太慢，可以使用镜像服务器（以下命令在同一行）：
+python3 -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple/ --trusted-host pypi.tuna.tsinghua.edu.cn -U pygame --user
+安装完成后运行以下命令，查看是否安装成功：
+python3 -m pygame.examples.aliens
+
+3.确保所有源码均全部解压且解压到了同一个文件夹中且前两项均确保无误 
+双击Main.py
+
+
+     ——鸿逸网络驿站
